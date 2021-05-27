@@ -44,8 +44,8 @@ idf = {
 }
 
 def calcIDF(idf):
-    for i in range(1,6):    
-        f = open(f'{i}.txt','r')
+    for i in range(1,11):    
+        f = open(f'Documents/Doc{i}.txt','r')
         flist = f.read().split(' ')
 
         for i in idf.keys():
